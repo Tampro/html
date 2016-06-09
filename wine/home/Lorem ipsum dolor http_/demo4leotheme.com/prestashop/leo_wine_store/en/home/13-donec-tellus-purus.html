@@ -44,8 +44,8 @@ var FancyboxI18nPrev = 'Previous';
 var added_to_wishlist = 'Added to your wishlist.';
 var ajax_allowed = true;
 var ajaxsearch = true;
-var baseDir = 'http://demo4leotheme.com/prestashop/leo_wine_store/';
-var baseUri = 'http://demo4leotheme.com/prestashop/leo_wine_store/';
+var baseDir = 'http:///';
+var baseUri = 'http:///';
 var blocksearch_type = 'top';
 var contentOnly = false;
 var customizationIdMessage = 'Customization #';
@@ -55,19 +55,19 @@ var freeProductTranslation = 'Free!';
 var freeShippingTranslation = 'Free shipping!';
 var generated_date = 1464924811;
 var id_lang = 1;
-var img_dir = 'http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/';
+var img_dir = 'http:///themes/leo_wine_store/img/';
 var instantsearch = false;
 var isGuest = 0;
 var isLogged = 0;
 var loggin_required = 'You must be logged in to manage your wishlist.';
-var mywishlist_url = 'http://demo4leotheme.com/prestashop/leo_wine_store/en/module/blockwishlist/mywishlist';
+var mywishlist_url = 'http:///en/module/blockwishlist/mywishlist';
 var page_name = 'pagenotfound';
 var priceDisplayMethod = 1;
 var priceDisplayPrecision = 2;
 var quickView = true;
 var removingLinkText = 'remove this product from my cart';
 var roundMode = 2;
-var search_url = 'http://demo4leotheme.com/prestashop/leo_wine_store/en/search';
+var search_url = 'http:///en/search';
 var static_token = '66b14ad074dd0871d55f1279b13e5cbd';
 var token = 'badee2860b24fce1912f110e5bc2b475';
 var usingSecureMode = false;
@@ -99,8 +99,8 @@ var wishlistProductsIds = false;
 				<script type="text/javascript" src="/prestashop/leo_wine_store/themes/leo_wine_store/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
 				<script type="text/javascript" src="/prestashop/leo_wine_store/modules/leocustomajax/leocustomajax.js"></script>
 				<script type="text/javascript" src="/prestashop/leo_wine_store/modules/leocustomajax/countdown.js"></script>
-					<link rel="stylesheet" type="text/css" href="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/css/responsive.css"/>
-				<link rel="stylesheet" type="text/css" href="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/css/font-awesome.min.css"/>
+					<link rel="stylesheet" type="text/css" href="http:///themes/leo_wine_store/css/responsive.css"/>
+				<link rel="stylesheet" type="text/css" href="http:///themes/leo_wine_store/css/font-awesome.min.css"/>
 		
                                 <link rel="stylesheet" href="/prestashop/leo_wine_store/themes/leo_wine_store/css/customize/test33.css" type="text/css" media="all" />
                                 <link rel="stylesheet" href="/prestashop/leo_wine_store/themes/leo_wine_store/css/local/custom.css" type="text/css" media="all" />
@@ -145,7 +145,7 @@ $(document).ready( function(){
 <!-- Block search module TOP -->
 <div id="search_block_top" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 pull-right">
 	<div class="groupe-btn hidden-md hidden-lg" title="Search"><span class="fa fa-search"></span></div>
-	<form id="searchbox" method="get" action="http://demo4leotheme.com/prestashop/leo_wine_store/en/search" class="groupe" >
+	<form id="searchbox" method="get" action="http:///en/search" class="groupe" >
 		<div class="input-group">
 			<input type="hidden" name="controller" value="search" />
 			<input type="hidden" name="orderby" value="position" />
@@ -167,16 +167,16 @@ $(document).ready( function(){
 	<div class="quick-setting dropdown-menu">
 			<ul>
 			<li class="first">
-				<a id="wishlist-total" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/module/blockwishlist/mywishlist" title="My wishlists"><i class="fa fa-heart"></i>Wish List</a>
+				<a id="wishlist-total" href="http:///en/module/blockwishlist/mywishlist" title="My wishlists"><i class="fa fa-heart"></i>Wish List</a>
 			</li>
-							<li><a class="login" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/my-account" rel="nofollow" title="Login to your customer account">
+							<li><a class="login" href="http:///en/my-account" rel="nofollow" title="Login to your customer account">
 					<i class="fa fa-unlock-alt"></i>Sign in
 				</a></li>
 			
 			
-			<li class="last"><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order" title="Checkout" class="last"><i class="fa fa-share"></i>Checkout</a></li>
+			<li class="last"><a href="http:///en/order" title="Checkout" class="last"><i class="fa fa-share"></i>Checkout</a></li>
 			<li>
-				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order" title="Shopping Cart" rel="nofollow">
+				<a href="http:///en/order" title="Shopping Cart" rel="nofollow">
 					<i class="fa fa-shopping-cart"></i>Shopping Cart
 				</a>
 			</li>
@@ -193,7 +193,7 @@ $(document).ready( function(){
 	</div>
 	<div class="quick-setting dropdown-menu">
 		<div id="currencies-block-top">
-			<form id="setCurrency" action="/prestashop/leo_wine_store/en/champagne/Lorem ipsum dolor http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/13-donec-tellus-purus.html" method="post">
+			<form id="setCurrency" action="/prestashop/leo_wine_store/en/champagne/Lorem ipsum dolor http:///en/champagne/13-donec-tellus-purus.html" method="post">
 		 	
 				<input type="hidden" name="id_currency" id="id_currency" value=""/>
 				<input type="hidden" name="SubmitCurrency" value="" />
@@ -221,53 +221,53 @@ $(document).ready( function(){
 	<div class="btn-group">
 		<div data-toggle="dropdown" class="dropdown-toggle">
 												 
-						<img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/1.jpg" alt="en" width="16" height="11" /> <span> English</span>				 
+						<img src="http:///img/l/1.jpg" alt="en" width="16" height="11" /> <span> English</span>				 
 																																																															
 		</div>
 		<div class="quick-setting dropdown-menu">
 					<div id="languages-block-top" class="languages-block">
 						<ul id="first-languages" class="languages-block_ul">
 															<li class="selected">
-																		<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/1.jpg" alt="en" width="16" height="11" />&nbsp;English</span>
+																		<span><img src="http:///img/l/1.jpg" alt="en" width="16" height="11" />&nbsp;English</span>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/fr/page-not-found" title="Français (French)">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/2.jpg" alt="fr" width="16" height="11" />&nbsp;Français</span>
+																																				<a href="http:///fr/page-not-found" title="Français (French)">
+																											<span><img src="http:///img/l/2.jpg" alt="fr" width="16" height="11" />&nbsp;Français</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/de/page-not-found" title="Deutsch (German)">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/3.jpg" alt="de" width="16" height="11" />&nbsp;Deutsch</span>
+																																				<a href="http:///de/page-not-found" title="Deutsch (German)">
+																											<span><img src="http:///img/l/3.jpg" alt="de" width="16" height="11" />&nbsp;Deutsch</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/pt/page-not-found" title="Português (Portuguese)">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/4.jpg" alt="pt" width="16" height="11" />&nbsp;Português</span>
+																																				<a href="http:///pt/page-not-found" title="Português (Portuguese)">
+																											<span><img src="http:///img/l/4.jpg" alt="pt" width="16" height="11" />&nbsp;Português</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/it/page-not-found" title="Italiano (Italian)">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/5.jpg" alt="it" width="16" height="11" />&nbsp;Italiano</span>
+																																				<a href="http:///it/page-not-found" title="Italiano (Italian)">
+																											<span><img src="http:///img/l/5.jpg" alt="it" width="16" height="11" />&nbsp;Italiano</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/es/page-not-found" title="Español (Spanish)">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/6.jpg" alt="es" width="16" height="11" />&nbsp;Español</span>
+																																				<a href="http:///es/page-not-found" title="Español (Spanish)">
+																											<span><img src="http:///img/l/6.jpg" alt="es" width="16" height="11" />&nbsp;Español</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/ru/page-not-found" title="Russian">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/7.jpg" alt="ru" width="16" height="11" />&nbsp;Russian</span>
+																																				<a href="http:///ru/page-not-found" title="Russian">
+																											<span><img src="http:///img/l/7.jpg" alt="ru" width="16" height="11" />&nbsp;Russian</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/pl/page-not-found" title="Polish">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/8.jpg" alt="pl" width="16" height="11" />&nbsp;Polish</span>
+																																				<a href="http:///pl/page-not-found" title="Polish">
+																											<span><img src="http:///img/l/8.jpg" alt="pl" width="16" height="11" />&nbsp;Polish</span>
 																	</a>
 																</li>
 															<li >
-																																				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/ar/page-not-found" title="Arabic">
-																											<span><img src="http://demo4leotheme.com/prestashop/leo_wine_store/img/l/9.jpg" alt="ar" width="16" height="11" />&nbsp;Arabic</span>
+																																				<a href="http:///ar/page-not-found" title="Arabic">
+																											<span><img src="http:///img/l/9.jpg" alt="ar" width="16" height="11" />&nbsp;Arabic</span>
 																	</a>
 																</li>
 													</ul>
@@ -286,8 +286,8 @@ $(document).ready( function(){
 							<div class="inner">
 								<div class="row">
 									<div id="header_logo" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-										<a href="http://demo4leotheme.com/prestashop/leo_wine_store/" title="KT Wine Store">
-											<img class="logo img-responsive" src="http://demo4leotheme.com/prestashop/leo_wine_store/img/prestashop-default-1402989091.jpg" alt="KT Wine Store"/>
+										<a href="http:///" title="KT Wine Store">
+											<img class="logo img-responsive" src="http:///img/prestashop-default-1402989091.jpg" alt="KT Wine Store"/>
 										</a>
 									</div>
 									<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
@@ -303,38 +303,38 @@ $(document).ready( function(){
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="leo-top-menu" class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav megamenu"><li class="" >
-						<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/" target="_self" class="has-category"><span class="menu-title">Home</span></a></li><li class=" parent dropdown aligned-fullwidth " >
+						<a href="http:///en/" target="_self" class="has-category"><span class="menu-title">Home</span></a></li><li class=" parent dropdown aligned-fullwidth " >
                     <a href="#" class="dropdown-toggle has-category" data-toggle="dropdown" target="_self"><span class="menu-title">Categories</span><b class="caret"></b></a><div class="dropdown-sub dropdown-menu"  style="width:680px" ><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-4" > <div class="mega-col-inner "><div class="leo-widget"><div class="widget-subcategories">
 		<div class="widget-inner">
 		<div class="menu-title">Home</div>
 		<ul>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/13-champagne" title="Champagne" class="img">
+					<a href="http:///en/13-champagne" title="Champagne" class="img">
 						Champagne 
 					</a>
 				</li>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/14-kosher" title="Kosher" class="img">
+					<a href="http:///en/14-kosher" title="Kosher" class="img">
 						Kosher 
 					</a>
 				</li>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/15-organic" title="Organic" class="img">
+					<a href="http:///en/15-organic" title="Organic" class="img">
 						Organic 
 					</a>
 				</li>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/16-rose" title="Rose" class="img">
+					<a href="http:///en/16-rose" title="Rose" class="img">
 						Rose 
 					</a>
 				</li>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/17-sparkling" title="Sparkling" class="img">
+					<a href="http:///en/17-sparkling" title="Sparkling" class="img">
 						Sparkling 
 					</a>
 				</li>
 							<li class="clearfix">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/18-blush" title="Blush" class="img">
+					<a href="http:///en/18-blush" title="Blush" class="img">
 						Blush 
 					</a>
 				</li>
@@ -408,8 +408,8 @@ $(document).ready( function(){
   
 			 <div class="product-container clearfix" itemscope itemtype="http://schema.org/Product">	
 					<div class="image ">
-							<a class="product_img_link"	href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/19-donec-tellus-purus.html" title="Mattis augue" itemprop="url">
-								<img class="replace-2x img-responsive" src="http://demo4leotheme.com/prestashop/leo_wine_store/42-small_default/donec-tellus-purus.jpg" alt="Mattis augue" title="Mattis augue"  itemprop="image" />
+							<a class="product_img_link"	href="http:///en/champagne/19-donec-tellus-purus.html" title="Mattis augue" itemprop="url">
+								<img class="replace-2x img-responsive" src="http:///42-small_default/donec-tellus-purus.jpg" alt="Mattis augue" title="Mattis augue"  itemprop="image" />
 						</a>
 															<span class="new-box">
 									<span class="new-label product-label">New</span>
@@ -417,7 +417,7 @@ $(document).ready( function(){
 												</div>
 					<div class="product-meta">
 							<h5 itemprop="name" class="name">
-																<a class="product-name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/19-donec-tellus-purus.html" title="Mattis augue" itemprop="url" >
+																<a class="product-name" href="http:///en/champagne/19-donec-tellus-purus.html" title="Mattis augue" itemprop="url" >
 									Mattis augue
 								</a>
 							</h5>
@@ -456,8 +456,8 @@ $(document).ready( function(){
   
 			 <div class="product-container clearfix" itemscope itemtype="http://schema.org/Product">	
 					<div class="image ">
-							<a class="product_img_link"	href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper" itemprop="url">
-								<img class="replace-2x img-responsive" src="http://demo4leotheme.com/prestashop/leo_wine_store/img/products/donec-tellus-purus41small.jpg" alt="Ligula ullamcorper" title="Ligula ullamcorper"  itemprop="image" />
+							<a class="product_img_link"	href="http:///en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper" itemprop="url">
+								<img class="replace-2x img-responsive" src="http:///img/products/donec-tellus-purus41small.jpg" alt="Ligula ullamcorper" title="Ligula ullamcorper"  itemprop="image" />
 						</a>
 															<span class="new-box">
 									<span class="new-label product-label">New</span>
@@ -465,7 +465,7 @@ $(document).ready( function(){
 												</div>
 					<div class="product-meta">
 							<h5 itemprop="name" class="name">
-																<a class="product-name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper" itemprop="url" >
+																<a class="product-name" href="http:///en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper" itemprop="url" >
 									Ligula ullamcorper
 								</a>
 							</h5>
@@ -525,16 +525,16 @@ $(document).ready( function(){
 </div>
 	</div>
 </div>
-</div></div></div></div></div></div></li><li class="parent dropdown  " ><a class="dropdown-toggle has-category" data-toggle="dropdown" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/16-rose" target="_self"><span class="menu-title">Shop</span><b class="caret"></b></a><div class="dropdown-menu level1"  style="width:210px" ><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-12" data-type="menu" ><div class="mega-col-inner "><ul><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Lorem ipsum dolor sit</span></a></li><li class="parent dropdown-submenu " ><a class="dropdown-toggle" data-toggle="dropdown" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Nulla quis felis at sapien</span><b class="caret"></b></a><div class="dropdown-menu level2"  ><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-12" data-type="menu" ><div class="mega-col-inner "><ul><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Proin ac sapien ut</span></a></li><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Proin ac sapien ut</span></a></li><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Nulla quis felis at sapien</span></a></li></ul></div></div></div></div></div></li><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Donec magna diam</span></a></li><li class=" " ><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/"><span class="menu-title">Vivamus non nisl ut</span></a></li></ul></div></div></div></div></div></li><li class="" >
-						<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/1-delivery" target="_self" class="has-category"><span class="menu-title">Delivery</span></a></li><li class="" >
-						<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/4-about-us" target="_self" class="has-category"><span class="menu-title">About Us</span></a></li></ul>
+</div></div></div></div></div></div></li><li class="parent dropdown  " ><a class="dropdown-toggle has-category" data-toggle="dropdown" href="http:///en/16-rose" target="_self"><span class="menu-title">Shop</span><b class="caret"></b></a><div class="dropdown-menu level1"  style="width:210px" ><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-12" data-type="menu" ><div class="mega-col-inner "><ul><li class=" " ><a href="http:///en/"><span class="menu-title">Lorem ipsum dolor sit</span></a></li><li class="parent dropdown-submenu " ><a class="dropdown-toggle" data-toggle="dropdown" href="http:///en/"><span class="menu-title">Nulla quis felis at sapien</span><b class="caret"></b></a><div class="dropdown-menu level2"  ><div class="dropdown-menu-inner"><div class="row"><div class="mega-col col-sm-12" data-type="menu" ><div class="mega-col-inner "><ul><li class=" " ><a href="http:///en/"><span class="menu-title">Proin ac sapien ut</span></a></li><li class=" " ><a href="http:///en/"><span class="menu-title">Proin ac sapien ut</span></a></li><li class=" " ><a href="http:///en/"><span class="menu-title">Nulla quis felis at sapien</span></a></li></ul></div></div></div></div></div></li><li class=" " ><a href="http:///en/"><span class="menu-title">Donec magna diam</span></a></li><li class=" " ><a href="http:///en/"><span class="menu-title">Vivamus non nisl ut</span></a></li></ul></div></div></div></div></div></li><li class="" >
+						<a href="http:///en/1-delivery" target="_self" class="has-category"><span class="menu-title">Delivery</span></a></li><li class="" >
+						<a href="http:///en/4-about-us" target="_self" class="has-category"><span class="menu-title">About Us</span></a></li></ul>
         </div>
     </div>
 </nav>
 
 <script type="text/javascript">
 // <![CDATA[
-	var current_link = "http://demo4leotheme.com/prestashop/leo_wine_store/en/";
+	var current_link = "http:///en/";
 	//alert(request);
     var currentURL = window.location;
     currentURL = String(currentURL);
@@ -616,7 +616,7 @@ $(document).ready( function(){
 			<div class="cart-inner media-body">
 				<h4>Shopping Cart</h4>
 
-				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order" title="View my shopping cart" rel="nofollow">
+				<a href="http:///en/order" title="View my shopping cart" rel="nofollow">
 					<span class="ajax_cart_total">
 																													$2,730.50
 																		</span>
@@ -634,9 +634,9 @@ $(document).ready( function(){
 					<div class="cart_block_list">
 													<dl class="products">
 																																			<dt data-id="cart_block_product_13_0_0" class="first_item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/13-donec-tellus-purus.html" title="Lorem ipsum dolor"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/36-cart_default/donec-tellus-purus.jpg" alt="Lorem ipsum dolor" /></a>
+										<a class="cart-images" href="http:///en/champagne/13-donec-tellus-purus.html" title="Lorem ipsum dolor"><img src="http:///36-cart_default/donec-tellus-purus.jpg" alt="Lorem ipsum dolor" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/13-donec-tellus-purus.html" title="Lorem ipsum dolor">Lorem ipsum dolor</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/13-donec-tellus-purus.html" title="Lorem ipsum dolor">Lorem ipsum dolor</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">1</span></span>
 												
 											<span class="price">
@@ -644,14 +644,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_14_0_0" class="item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/14-donec-tellus-purus.html" title="Fusce vestibulum"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/37-cart_default/donec-tellus-purus.jpg" alt="Fusce vestibulum" /></a>
+										<a class="cart-images" href="http:///en/champagne/14-donec-tellus-purus.html" title="Fusce vestibulum"><img src="http:///37-cart_default/donec-tellus-purus.jpg" alt="Fusce vestibulum" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/14-donec-tellus-purus.html" title="Fusce vestibulum">Fusce vestibulum</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/14-donec-tellus-purus.html" title="Fusce vestibulum">Fusce vestibulum</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">2</span></span>
 												
 											<span class="price">
@@ -659,14 +659,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_15_0_0" class="item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/15-donec-tellus-purus.html" title="Fusce vestibulum"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/38-cart_default/donec-tellus-purus.jpg" alt="Fusce vestibulum" /></a>
+										<a class="cart-images" href="http:///en/champagne/15-donec-tellus-purus.html" title="Fusce vestibulum"><img src="http:///38-cart_default/donec-tellus-purus.jpg" alt="Fusce vestibulum" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/15-donec-tellus-purus.html" title="Fusce vestibulum">Fusce vestibulum</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/15-donec-tellus-purus.html" title="Fusce vestibulum">Fusce vestibulum</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">2</span></span>
 												
 											<span class="price">
@@ -674,14 +674,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_16_0_0" class="item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/16-donec-tellus-purus.html" title="Donec tellus purus"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/39-cart_default/donec-tellus-purus.jpg" alt="Donec tellus purus" /></a>
+										<a class="cart-images" href="http:///en/champagne/16-donec-tellus-purus.html" title="Donec tellus purus"><img src="http:///39-cart_default/donec-tellus-purus.jpg" alt="Donec tellus purus" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/16-donec-tellus-purus.html" title="Donec tellus purus">Donec tellus purus</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/16-donec-tellus-purus.html" title="Donec tellus purus">Donec tellus purus</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">1</span></span>
 												
 											<span class="price">
@@ -689,14 +689,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_17_0_0" class="item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/17-donec-tellus-purus.html" title="Ligula ullamcorper"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/40-cart_default/donec-tellus-purus.jpg" alt="Ligula ullamcorper" /></a>
+										<a class="cart-images" href="http:///en/champagne/17-donec-tellus-purus.html" title="Ligula ullamcorper"><img src="http:///40-cart_default/donec-tellus-purus.jpg" alt="Ligula ullamcorper" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/17-donec-tellus-purus.html" title="Ligula ullamcorper">Ligula ullamcorper</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/17-donec-tellus-purus.html" title="Ligula ullamcorper">Ligula ullamcorper</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">1</span></span>
 												
 											<span class="price">
@@ -704,14 +704,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_18_0_0" class="item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/41-cart_default/donec-tellus-purus.jpg" alt="Ligula ullamcorper" /></a>
+										<a class="cart-images" href="http:///en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper"><img src="http:///41-cart_default/donec-tellus-purus.jpg" alt="Ligula ullamcorper" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper">Ligula ullamcorper</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/18-donec-tellus-purus.html" title="Ligula ullamcorper">Ligula ullamcorper</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">1</span></span>
 												
 											<span class="price">
@@ -719,14 +719,14 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
 																																																					<dt data-id="cart_block_product_19_0_0" class="last_item">
-										<a class="cart-images" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/19-donec-tellus-purus.html" title="Mattis augue"><img src="http://demo4leotheme.com/prestashop/leo_wine_store/42-cart_default/donec-tellus-purus.jpg" alt="Mattis augue" /></a>
+										<a class="cart-images" href="http:///en/champagne/19-donec-tellus-purus.html" title="Mattis augue"><img src="http:///42-cart_default/donec-tellus-purus.jpg" alt="Mattis augue" /></a>
 										<div class="cart-info">
-											<div class="product-name"><a class="cart_block_product_name" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/champagne/19-donec-tellus-purus.html" title="Mattis augue">Mattis augue</a>
+											<div class="product-name"><a class="cart_block_product_name" href="http:///en/champagne/19-donec-tellus-purus.html" title="Mattis augue">Mattis augue</a>
 												<span class="quantity-formated">&nbsp;x&nbsp;<span class="quantity">1</span></span>
 												
 											<span class="price">
@@ -734,7 +734,7 @@ $(document).ready( function(){
 											</div>
 																					</div>
 										<span class="remove_link">
-																						<a class="ajax_cart_block_remove_link" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
+																						<a class="ajax_cart_block_remove_link" href="http:///en/cart?delete%3D1%26id_product%3D%7B%24product_id_product%7D%26ipa%3D%7B%24product_id_product_attribute%7D%26id_address_delivery%3D%7B%24product_id_address_delivery%7D%26token%3D%7B%24static_token%7D=" rel="nofollow" title="remove this product from my cart"><i class="fa fa-trash-o"></i></a>
 																					</span>
 									</dt>
 																		<!-- Customizable datas -->
@@ -757,7 +757,7 @@ $(document).ready( function(){
 							</div>
 													</div>
 						<p class="cart-buttons clearfix">
-							<a id="button_order_cart" class="btn btn-default button-medium button button-small pull-right" href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order" title="Check out" rel="nofollow">
+							<a id="button_order_cart" class="btn btn-default button-medium button button-small pull-right" href="http:///en/order" title="Check out" rel="nofollow">
 								<span>
 									Check out
 								</span>
@@ -835,7 +835,7 @@ $(document).ready( function(){
 							Continue shopping
 						</span>
 					</span>
-					<a class="btn btn-default button pull-right"	href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order" title="Proceed to checkout" rel="nofollow">
+					<a class="btn btn-default button pull-right"	href="http:///en/order" title="Proceed to checkout" rel="nofollow">
 						<span>
 							Proceed to checkout
 						</span>
@@ -873,7 +873,7 @@ $(document).ready( function(){
   
 	<div class="pagenotfound">
 	<div class="img-404">
-    	<img src="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img//img-404.jpg" alt="Page not found" />
+    	<img src="http:///themes/leo_wine_store/img//img-404.jpg" alt="Page not found" />
     </div>
 	<h1>This page is not available</h1>
 
@@ -882,7 +882,7 @@ $(document).ready( function(){
 	</p>
 
 	<h3>To find a product, please type its name in the field below.</h3>
-	<form action="http://demo4leotheme.com/prestashop/leo_wine_store/en/search" method="post" class="std">
+	<form action="http:///en/search" method="post" class="std">
 		<fieldset>
 			<div>
 				<label for="search_query">Search our product catalog:</label>
@@ -892,7 +892,7 @@ $(document).ready( function(){
 		</fieldset>
 	</form>
 
-	<div class="buttons"><a class="btn btn-default button button-medium" href="http://demo4leotheme.com/prestashop/leo_wine_store/" title="Home"><span>Home page</span></a></div>
+	<div class="buttons"><a class="btn btn-default button button-medium" href="http:///" title="Home"><span>Home page</span></a></div>
 </div>
 									</div>
 </div>
@@ -929,7 +929,7 @@ $(document).ready( function(){
 		<div class="description">Tellus aodio consequat seo.</div>
 	</div>
 	<div class="block_content">
-			<form action="http://demo4leotheme.com/prestashop/leo_wine_store/en/" method="post">
+			<form action="http:///en/" method="post">
 			<div>
                 <input class="inputNew newsletter-input form-control" id="newsletter-input" type="text" name="email" size="18" value="Enter your e-mail" />
 				<input type="submit" value="subscribe" class="button_mini btn btn-default" name="submitNewsletter" />
@@ -1023,27 +1023,27 @@ France            	</li>
 		<h4 class="title_block">Information</h4>
 		<ul class="toggle-footer list-group bullet">
 							<li class="item">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/prices-drop" title="Specials">
+					<a href="http:///en/prices-drop" title="Specials">
 						Specials
 					</a>
 				</li>
 									<li class="item">
-				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/new-products" title="New products">
+				<a href="http:///en/new-products" title="New products">
 					New products
 				</a>
 			</li>
 										<li class="item">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/best-sales" title="Best sellers">
+					<a href="http:///en/best-sales" title="Best sellers">
 						Best sellers
 					</a>
 				</li>
 										<li class="item">
-					<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/stores" title="Our stores">
+					<a href="http:///en/stores" title="Our stores">
 						Our stores
 					</a>
 				</li>
 															<li>
-				<a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/sitemap" title="Sitemap">
+				<a href="http:///en/sitemap" title="Sitemap">
 					Sitemap
 				</a>
 			</li>
@@ -1055,14 +1055,14 @@ France            	</li>
                                                                         <div class="widget col-lg-3 col-md-3 col-sm-6 col-xs-6 col-sp-12" >
         <!-- Block myaccount module -->
 <section class="footer-block block">
-	<h4 class="title_block"><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>
+	<h4 class="title_block"><a href="http:///en/my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>
 	<div class="block_content toggle-footer">
 		<ul class="bullet toggle-footer list-group">
-			<li><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order-history" title="My orders" rel="nofollow">My orders</a></li>
-						<li><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/order-slip" title="My credit slips" rel="nofollow">My credit slips</a></li>
-			<li><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/addresses" title="My addresses" rel="nofollow">My addresses</a></li>
-			<li><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/identity" title="Manage my personal information" rel="nofollow">My personal info</a></li>
-			<li><a href="http://demo4leotheme.com/prestashop/leo_wine_store/en/discount" title="My vouchers" rel="nofollow">My vouchers</a></li>			
+			<li><a href="http:///en/order-history" title="My orders" rel="nofollow">My orders</a></li>
+						<li><a href="http:///en/order-slip" title="My credit slips" rel="nofollow">My credit slips</a></li>
+			<li><a href="http:///en/addresses" title="My addresses" rel="nofollow">My addresses</a></li>
+			<li><a href="http:///en/identity" title="Manage my personal information" rel="nofollow">My personal info</a></li>
+			<li><a href="http:///en/discount" title="My vouchers" rel="nofollow">My vouchers</a></li>			
             		</ul>
 	</div>
 </section>
@@ -1256,46 +1256,46 @@ hideTwitterBoxElements();
                           <div class="clearfix"></div>
                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/img/patterns/</em></p>
                           <div class="bi-wrapper clearfix">
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
 
                             </div>
                                                     </div>
@@ -1354,46 +1354,46 @@ hideTwitterBoxElements();
                           <div class="clearfix"></div>
                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/img/patterns/</em></p>
                           <div class="bi-wrapper clearfix">
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
 
                             </div>
                                                     </div>
@@ -1607,46 +1607,46 @@ hideTwitterBoxElements();
                           <div class="clearfix"></div>
                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/img/patterns/</em></p>
                           <div class="bi-wrapper clearfix">
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
 
                             </div>
                                                     </div>
@@ -1732,46 +1732,46 @@ hideTwitterBoxElements();
                           <div class="clearfix"></div>
                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/img/patterns/</em></p>
                           <div class="bi-wrapper clearfix">
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
 
                             </div>
                                                     </div>
@@ -1857,46 +1857,46 @@ hideTwitterBoxElements();
                           <div class="clearfix"></div>
                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/img/patterns/</em></p>
                           <div class="bi-wrapper clearfix">
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern10.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern10.png" data-val="../img/patterns/pattern10.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern11.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern11.png" data-val="../img/patterns/pattern11.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern12.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern12.png" data-val="../img/patterns/pattern12.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern13.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern13.png" data-val="../img/patterns/pattern13.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern1.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern1.png" data-val="../img/patterns/pattern1.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern2.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern2.png" data-val="../img/patterns/pattern2.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern3.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern3.png" data-val="../img/patterns/pattern3.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern4.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern4.png" data-val="../img/patterns/pattern4.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern5.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern5.png" data-val="../img/patterns/pattern5.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern6.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern6.png" data-val="../img/patterns/pattern6.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern7.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern7.png" data-val="../img/patterns/pattern7.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern8.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern8.png" data-val="../img/patterns/pattern8.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern9.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern9.png" data-val="../img/patterns/pattern9.png">
 
                             </div>
-                                                      <div style="background:url('http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http://demo4leotheme.com/prestashop/leo_wine_store/themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
+                                                      <div style="background:url('http:///themes/leo_wine_store/img/patterns/pattern.png') no-repeat center center;" class="pull-left" data-image="http:///themes/leo_wine_store/img/patterns/pattern.png" data-val="../img/patterns/pattern.png">
 
                             </div>
                                                     </div>
