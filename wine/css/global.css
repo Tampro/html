@@ -59,22 +59,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Web Application Prefix Apply For Making Owner Styles
  */
 /**
- *   Blocks Layout Selectors 
+ *   Blocks Layout Selectors
  */
 /**
  * Product Item Selectors
  */
 /***********************************************************************/
 /**
-* Transition-timing-function property@mixin 
+* Transition-timing-function property@mixin
 */
 /*background RGBA
 ============================================*/
 /****/
 /* RIGHT TO LEFT */
 /** CHECKOUT BY STEP */
-/*  
- * LAYOUT VARIABLES 
+/*
+ * LAYOUT VARIABLES
  */
 /*
  * Bootstrap v3.0.0
@@ -6545,7 +6545,7 @@ body.layout-boxed-lg #page .container {
 }
 
 /*
-* HEADER 
+* HEADER
 */
 #topbar {
   min-height: 35px;
@@ -6766,13 +6766,13 @@ body.layout-boxed-lg #page .container {
 }
 
 /*
-* SLIDESHOW 
+* SLIDESHOW
 */
 /*
-* SHOWCASE 
+* SHOWCASE
 */
 /*
-* PROMOTION TOP 
+* PROMOTION TOP
 */
 /*
 * MAIN CONTENT
@@ -9763,4 +9763,7 @@ div.star.star_hover:after {
 .rtl .footer_links .fa {
   margin-left: 5px;
   margin-right: inherit;
+}
+.blockcart_top,#leo-paneltool{
+  display: none!important;
 }
